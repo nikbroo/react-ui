@@ -13,6 +13,26 @@
 html,
 body,
 #root {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-container.static {
+  position: static;
+}
+.react-multiple-carousel__arrow {
+  background: white !important;
+}
+.react-multiple-carousel__arrow::before {
+  color: #fa5c98 !important;
+}
+.arrow2 .react-multiple-carousel__arrow {
+  background: #fa5c9821 !important;
+}
+.custom-dot-list-style button {
+  background-color: #f4f5f8 !important;
+  border: none !important;
+}
+.custom-dot-list-style .react-multi-carousel-dot--active button {
+  background-color: #fa5c98 !important;
 }
